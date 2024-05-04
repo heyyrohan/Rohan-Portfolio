@@ -3,6 +3,7 @@ import { CgMail } from "react-icons/cg";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { FaGithub } from "react-icons/fa6";
 import { FiCoffee } from "react-icons/fi";
+import { FaHeart } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -61,7 +62,7 @@ const Contact = () => {
       </div>
       
       <footer style={{ height: "20px" , marginTop:"30px"}}>
-        <p> <strong>  Designed and built by Rohan Kumar <span><FiCoffee /></span>   </strong> </p>
+        <p> <strong>  Designed and built by Rohan Kumar <span style={{color:"red"}}><FaHeart /></span>   </strong> </p>
       </footer>
 
     </div>

@@ -16,6 +16,7 @@ const Aboutme = () => {
           marginTop: "80px",
           marginBottom:"20px",
           backgroundColor: "rgb(50, 56, 70)",
+       
          
         }}
       >
@@ -32,6 +33,8 @@ const Aboutme = () => {
                 width: "340px",
                 borderRadius: "50%",
                 marginLeft: "30px",
+                marginTop:"15px",
+                marginBottom:"15px"
               }}
             />
           </div>
@@ -40,7 +43,9 @@ const Aboutme = () => {
             className="col"
             style={{
               textAlign: "left",
-              fontFamily: "sans-serif",
+              // border:"2px solid red",
+              marginTop:"15px"
+            
               
             }}
           >

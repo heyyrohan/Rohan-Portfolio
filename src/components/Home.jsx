@@ -16,6 +16,15 @@ const Home = () => {
     window.open(resumeUrl, "_blank");
   };
 
+
+  const socialIcons ={
+    width: "42px",
+     height: "42px",
+     borderRadius:"20px"
+  };
+
+ 
+
   return (
     <div id="home" >
       <div
@@ -27,7 +36,7 @@ const Home = () => {
             className="col"
             style={{
               textAlign: "left",
-              fontFamily: "sans-serif",
+            
             }}
           >
             <h4>hello it's me </h4>
@@ -56,7 +65,7 @@ const Home = () => {
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7xqi3Gl1tCm4_m-p7PfET6y6gta_SEwS_NFczRIesyQ&s"
                   }
                   alt="HTML"
-                  style={{ width: "42px", height: "42px" }}
+                  style={socialIcons}
                 />
               </a>
               <a href="https://www.linkedin.com/in/rohan-kumar-fullstack/">
@@ -66,7 +75,7 @@ const Home = () => {
                     "https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473"
                   }
                   alt="HTML "
-                  style={{ width: "42px", height: "42px" }}
+                  style={socialIcons}
                 />
               </a>
               <a href="https://github.com/heyyrohan">
@@ -76,7 +85,7 @@ const Home = () => {
                     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbO8Fy7Kru8lGicthzGbQdqEM4GIKnGaSLSw&usqp=CAU"
                   }
                   alt="HTML "
-                  style={{ width: "42px", height: "42px" }}
+                  style={socialIcons}
                 />
               </a>
             </div>
@@ -103,7 +112,8 @@ const Home = () => {
                 "https://i.pinimg.com/originals/02/74/20/0274207612d515f49012c87803a9e631.gif"
               }
               alt=""
-              style={{ height: "400px", width: "500px", marginLeft:"23%" }}
+              style={{ height: "auto", maxWidth: "80%", marginLeft:"23%" }}
+             
             />
           </div>
         </div>
