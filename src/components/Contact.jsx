@@ -2,7 +2,6 @@ import React from "react";
 import { CgMail } from "react-icons/cg";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { FaGithub } from "react-icons/fa6";
-import { FiCoffee } from "react-icons/fi";
 import { FaHeart } from "react-icons/fa";
 
 
