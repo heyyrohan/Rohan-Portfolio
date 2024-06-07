@@ -10,7 +10,7 @@ const Home = () => {
   const handleDownload = () => {
     // Replace 'resume_link' with the URL of your hosted resume
     const resumeUrl =
-      "https://drive.google.com/file/d/1XJf_grzEqP3yoyiQFIp6V_3st-2_4rgN/view?usp=sharing";
+      "https://drive.google.com/file/d/1IxpTMnCk6ygrkuQkc7DAHhQr3q1tUDUg/view?usp=sharing";
 
     // Open the resume URL in a new tab
     window.open(resumeUrl, "_blank");
