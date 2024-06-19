@@ -160,7 +160,7 @@ const Projects = () => {
                   Html,Css,Bootstarp,javascript
                 </div>
                 <a
-                  href="https://bejewelled-pika-7d6988.netlify.app/"
+                  href="https://rad-lokum-426ea3.netlify.app/"
                   className="btn card-btn"
                   style={cardBtnStyle}
                 >
@@ -193,7 +193,7 @@ const Projects = () => {
                   REACT JS, JAVASCRIPT,CSS,HTML
                 </div>
                 <a
-                  href="https://bejewelled-pika-7d6988.netlify.app/"
+                  href="https://euphonious-dusk-2777c3.netlify.app/"
                   className="btn card-btn"
                   style={cardBtnStyle}
                 >
